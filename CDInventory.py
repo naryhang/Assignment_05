@@ -69,7 +69,6 @@ while True:
         for row in lstTbl:
             if row['ID'] == lstDel:
                 del lstDel
-        # Code is not working. Input is working and stores ID in row['ID']
                 
     elif strChoice == 's':
         # 4. Save the data to a text file CDInventory.txt if the user chooses so
